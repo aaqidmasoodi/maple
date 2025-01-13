@@ -81,6 +81,7 @@ const Modal: React.FC<ModalProps> = ({
                     </div>
                     <Dialog.Close asChild>
                         <button
+                            onClick={() => onChange(false)}
                             className="
                                 text-neutral-400
                                 hover:text-white
