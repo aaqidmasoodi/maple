@@ -29,7 +29,8 @@ export default async function Home() {
               text-3xl
               font-semibold
             "
-          >السلام عليكم</h1>
+          >Welcome Back
+          </h1>
           <div
             className="
               grid
